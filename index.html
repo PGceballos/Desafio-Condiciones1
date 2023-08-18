@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Condiciones / Pedido de stickers</title>
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+	<h1>Pedido de stickers</h1>
+	<p>Seleccione hasta 10 stickers de los siguientes tipos:</p>
+	<div>
+		<img src="/assets/img/Contenedor-Monta-cargas.jpg">
+		<label>Cantidad 1:</label>
+		<input type="number" min="0" max="10" value="0">
+	</div>
+	<div>
+		<img src="/assets/img/Buque de carga.jpg">
+		<label>Cantidad 2:</label>
+		<input type="number" min="0" max="10" value="0">
+	</div>
+	<div>
+		<img src="/assets/img/Avion-carguero.jpg">
+		<label>Cantidad 3:</label>
+		<input type="number" min="0" max="10" value="0">
+	</div>
+	<button onclick="calcularStickers()">Calcular stickers</button>
+	<p id="resultado"></p>
+	<script src="/assets/script/script.js"></script>
+</body>
+</html>
